@@ -1,8 +1,8 @@
 "use client";
 import React, { useState } from "react";
 import { Box } from "@mui/material";
-import Lightbox from "react-image-lightbox";
-import "react-image-lightbox/style.css"; // This only needs to be imported once in your app
+import Lightbox from "yet-another-react-lightbox";
+import "yet-another-react-lightbox/styles.css";
 import "./gallerry.css";
 import { useEffect } from "react";
 import usePageTitle from "../Routers/usepagetitle";
@@ -51,9 +51,7 @@ export default function Gallery() {
         <Box
           sx={{
             position: "absolute",
-
             backgroundColor: "rgba(0, 0, 0, 0.5)",
-
             width: "100%",
             height: "100%",
             display: "flex",
@@ -101,22 +99,11 @@ export default function Gallery() {
       </Box>
       {isOpen && (
         <Lightbox
-          mainSrc={currentImages[photoIndex]}
-          nextSrc={currentImages[(photoIndex + 1) % currentImages.length]}
-          prevSrc={
-            currentImages[
-              (photoIndex + currentImages.length - 1) % currentImages.length
-            ]
-          }
-          onCloseRequest={() => setIsOpen(false)}
-          onMovePrevRequest={() =>
-            setPhotoIndex(
-              (photoIndex + currentImages.length - 1) % currentImages.length
-            )
-          }
-          onMoveNextRequest={() =>
-            setPhotoIndex((photoIndex + 1) % currentImages.length)
-          }
+          open={isOpen}
+          close={() => setIsOpen(false)}
+          index={photoIndex}
+          slides={currentImages.map((src) => ({ src }))}
+          onIndexChange={(newIndex) => setPhotoIndex(newIndex)}
         />
       )}
     </Box>
