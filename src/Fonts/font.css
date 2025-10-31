@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Corbel";
+  src: url("./Corbel/CORBELB.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Verdana";
+  src: url("./Verdana/Verdana.ttf") format("ttf");
+}

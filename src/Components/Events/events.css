@@ -1,0 +1,180 @@
+    .ContenEvents {
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 2vw;
+      padding: 2% 2%;
+      padding-bottom: 7%;
+
+      font-family: "Inter", sans-serif;
+    }
+
+    .EventsTitle {
+      padding-top: 120px;
+    }
+
+    .EventsTitle h1 {
+      padding-left: 3%;
+      font-family: "Montserrat", sans-serif;
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 32px;
+      text-align: left;
+      animation: animate 0.7s ease-out;
+    }
+
+    .EventsTitle h1::before {
+      content: "";
+      display: inline-block;
+      width: 18px;
+      height: 4px;
+      position: relative;
+      background-color: #faaa4d;
+      left: -10px;
+      top: -10px;
+    }
+
+    .ContenEvents .Events {
+      width: 90%;
+      min-height: 250px;
+      max-height: 250px;
+      user-select: none;
+      overflow: hidden;
+      cursor: pointer;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      position: relative !important;
+    }
+
+    .BackgroundOpacityEvents {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      background-color: #1c2752c0;
+      z-index: 1;
+    }
+
+    .AboutEvents {
+      position: relative;
+      padding: 1% 2.3%;
+      z-index: 10;
+      color: #ffff;
+    }
+
+    .AboutEvents h4 {
+      font-size: 22px;
+      padding-top: 1%;
+    }
+
+    .Eventdata {
+      font-size: 18px;
+      font-weight: 600;
+    }
+
+    .EventDescription {
+      position: relative;
+      opacity: 0;
+    }
+
+    .EventDescription {
+      padding: 1% 0;
+      width: 100%;
+      font-size: 22px;
+      font-weight: 500;
+      line-height: 30px;
+    }
+
+    .Events:hover .EventDescription {
+      opacity: 1;
+      position: absolute;
+      width: 95%;
+      transition: .5s all linear;
+    }
+
+    .Events:hover h4 {
+      opacity: 0;
+      display: none;
+      transition: .5s all linear;
+    }
+    @media screen and (max-width:1200px) {
+      .EventsTitle{
+        padding-top: 100px;
+      }
+    }
+    @media screen and (max-width:1000px) {
+      .EventDescription {
+        font-size: 18px;
+        line-height: 25px;
+      }
+      .EventsTitle h1{
+        font-size: 25px;
+        padding-bottom: 1%;
+      }
+      .AboutEvents h4 {
+        font-size: 20px;
+      }
+    }
+    @media screen and (max-width:850px){
+      .EventsTitle {
+        padding-top: 100px;
+      }
+      .AboutEvents h4 {
+        font-size: 18px;
+      }
+    }
+    @media screen and (max-width:800px) {
+      .ContenEvents .Events {
+        min-height: 300px;
+      }
+    }
+
+    @media screen and (max-width:600px) {
+      .EventDescription {
+        font-size: 16px;
+        line-height: 21px;
+      }
+      .Eventdata{
+        font-size: 17px;
+      }
+      .AboutEvents h4 {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 23px;
+      }
+    }
+    @media screen and (max-width:500px) {
+      .EventDescription {
+        font-size: 15px;
+        line-height: 18px;
+        padding-top: 1.2%;
+      }
+      .Eventdata{
+        font-size: 17px;
+      }
+      .EventsTitle h1{
+        font-size: 22px;
+        padding-bottom: 1%;
+      }
+      .EventsTitle h1::before{
+        width: 13px;
+        height: 2.5px;
+        left: -5px;
+        top:-6.5px;
+      }
+      .AboutEvents h4 {
+        font-size: 17px;
+        font-weight: 600;
+        line-height: 20px;
+      }
+      .ContenEvents .Events {
+        min-height: 260px;
+      }
+    }
+    @media screen and (max-width:400px){
+      .ContenEvents .Events {
+        min-height: 300px;
+      }
+    }

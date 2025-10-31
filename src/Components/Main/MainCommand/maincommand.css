@@ -1,0 +1,197 @@
+.MainCommand h1 {
+  font-size: 40px;
+  font-weight: 600;
+  position: relative;
+  padding-left: 3%;
+}
+
+.MainCommand {
+  /* font-family: "Inter", sans-serif; */
+  font-family: Tahoma, Geneva, sans-serif !important;
+  padding: 3% 2%;
+}
+
+.MainCommand h1::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 5px;
+  position: relative;
+  background-color: #faaa4d;
+  left: -15px;
+  top: -10px;
+}
+
+.MainCommand h2 {
+  font-size: 40px;
+  font-weight: 600;
+  position: relative;
+  padding-left: 7.5%;
+  line-height: 46px;
+  padding-top: 1%;
+  padding-bottom: 5%;
+}
+
+.Commands {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 3vh;
+}
+
+.InfoCommands {
+  width: 90%;
+  display: flex;
+  overflow: hidden;
+  z-index: 3;
+  border: 1px solid transparent;
+  background: rgb(239, 239, 239);
+}
+
+.InfoCommands .ImgUser {
+  width: 18%;
+  max-width: 400px;
+  height: auto;
+  position: relative;
+}
+
+.InfoUser {
+  padding: 2%;
+}
+
+.InfoUser h3 {
+  /* font-family: "Inter", sans-serif; */
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 32px;
+  font-weight: 600;
+  letter-spacing: 0.36000001430511475px;
+  text-align: left;
+}
+
+.InfoUser p {
+  /* font-family: "Inter", sans-serif; */
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 32px;
+  font-weight: 400;
+  padding-top: 10%;
+  letter-spacing: 0.36000001430511475px;
+  text-align: left;
+}
+
+@media screen and (max-width: 1450px) {
+  .InfoCommands .ImgUser {
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .InfoCommands .ImgUser {
+    width: 27%;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .InfoUser {
+    width: 75%;
+  }
+
+  .InfoUser h3 {
+    font-size: 20px;
+    line-height: 22px;
+  }
+
+  .InfoUser p {
+    font-size: 17px;
+    line-height: 20px;
+  }
+
+  .InfoCommands .ImgUser {
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .InfoUser {
+    width: 70%;
+  }
+
+  .InfoUser h3 {
+    font-size: 16px;
+  }
+
+  .InfoUser p {
+    font-size: 13px;
+    padding-top: 1%;
+  }
+
+  .InfoCommands .ImgUser {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .InfoUser {
+    width: 70%;
+  }
+
+  .InfoUser h3 {
+    font-size: 12px;
+  }
+
+  .InfoUser p {
+    font-size: 10px;
+    padding-top: 3%;
+  }
+
+  .InfoCommands .ImgUser {
+    width: 31%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .InfoUser {
+    width: 60%;
+  }
+
+  .InfoUser h3 {
+    font-size: 14px;
+  }
+
+  .InfoUser p {
+    font-size: 12px;
+    padding-top: 3%;
+  }
+
+  .InfoCommands .ImgUser {
+    width: 33%;
+  }
+}
+
+.InfoCommands {
+  opacity: 0;
+  border: 0px;
+  transform: translateY(50px);
+  transition: opacity 0.8s ease, transform 0.5s ease;
+}
+
+.InfoCommands.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.h112s {
+  opacity: 0;
+  transform: translateX(-70px);
+  transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+}
+
+.h112s.animate {
+  opacity: 1;
+  transform: translateX(0);
+  background-size: unset
+}

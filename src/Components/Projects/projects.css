@@ -1,0 +1,248 @@
+.SectionsProjects {
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  user-select: none;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  font-family: "Montserrat", sans-serif;
+}
+
+.SectionsProjects h1 {
+  font-weight: 400;
+  font-size: 70px;
+  padding-top: 3%;
+  text-align: center;
+  line-height: 80px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.BackgroundOpacity {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: black;
+  opacity: 0.3;
+  display: none;
+}
+
+.SectionsProjects .HoverActivate .descriptionprojects {
+  opacity: 0;
+  transition: opacity 0.3s linear;
+  z-index: 300;
+  color: #ffffff;
+  position: absolute;
+  left: calc(20%/2);
+  width: 80%;
+}
+
+.SectionsProjects:hover .HoverActivate .descriptionprojects {
+  opacity: 1;
+}
+
+.SectionsProjects h1,
+.SectionsProjects #subtitle {
+  opacity: 1;
+  transition: opacity 0.3s linear;
+}
+
+.SectionsProjects:hover .BackgroundOpacity {
+  display: block;
+  z-index: 0;
+}
+
+.SectionsProjects:hover h1,
+.SectionsProjects:hover #subtitle {
+  opacity: 0;
+}
+
+.SectionsProjects p {
+  font-size: 24px;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  line-height: 26px;
+  letter-spacing: 0.36000001430511475px;
+}
+
+.ProjectPage {
+  padding-top: 70px;
+}
+
+@media screen and (max-width: 950px) {
+  .SectionsProjects .HoverActivate .descriptionprojects {
+    top: 10%;
+  }
+
+  .SectionsProjects .HoverActivate p {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .SectionsProjects h1 {
+    font-size: 60px;
+    line-height: 70px;
+  }
+
+  #subtitle {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .SectionsProjects .HoverActivate .descriptionprojects {
+    width: 94%;
+    left: calc(6%/2);
+  }
+
+  .SectionsProjects h1 {
+    font-size: 55px;
+    line-height: 65px;
+  }
+
+  #subtitle {
+    font-size: 23px;
+  }
+}
+
+@media screen and (max-width:690px) {
+  .SectionsProjects .HoverActivate p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .SectionsProjects h1 {
+    font-size: 45px;
+    line-height: 55px;
+  }
+
+  #subtitle {
+    font-size: 21px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .SectionsProjects h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  #subtitle {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .SectionsProjects h1 {
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+  .SectionsProjects #subtitle {
+    font-size: 18px;
+  }
+
+  .SectionsProjects .HoverActivate p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .SectionsProjects h1 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+
+  .SectionsProjects #subtitle {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 355px) {
+  .SectionsProjects h1 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  .SectionsProjects .HoverActivate .descriptionprojects {
+    top: 4%;
+  }
+
+  .SectionsProjects #subtitle {
+    font-size: 16px;
+  }
+}
+
+.SectionsProjects {
+  animation: animatea 1s ease-out;
+}
+
+.ProjectsTitle {
+  animation: animatea 1s ease-out;
+  font-family: "Raleway", sans-serif;
+  font-size: 35px;
+  font-weight: 500;
+  z-index: 2;
+  padding-left: 1%;
+  padding-top: 45px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #000000;
+}
+
+.ProjectsTitle::before {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 5px;
+  position: relative;
+  background-color: #faaa4d;
+  left: -10px;
+  top: -10px;
+}
+
+@keyframes animatea {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .ProjectsTitle {
+    font-size: 25px;
+    font-weight: 600;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .ProjectsTitle::before {
+    width: 15px;
+    left: -4px;
+    height: 4px;
+    top: -8px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .ProjectsTitle {
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 20px;
+    padding-bottom: 22px;
+  }
+
+  .ProjectsTitle::before {
+    width: 14px;
+    left: -2px;
+    height: 3px;
+    top: -7px;
+  }
+}

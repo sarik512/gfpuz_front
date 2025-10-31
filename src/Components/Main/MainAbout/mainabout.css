@@ -1,0 +1,132 @@
+.MainAbout {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  padding: 5% 2%;
+  align-items: start;
+  /* font-family: "Inter", sans-serif; */
+  font-family: Tahoma, Geneva, sans-serif !important;
+  height: 1000px;
+}
+
+.LeftMainAbout {
+  width: 40%;
+  display: block;
+  color: #000000;
+}
+
+.LeftMainAbout h1 {
+  font-size: 40px;
+  /* font-family: "Inter", sans-serif !important; */
+  font-family: Tahoma, Geneva, sans-serif;
+  font-weight: 600;
+  position: relative;
+  padding-left: 3%;
+}
+
+.LeftMainAbout h1::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 5px;
+  position: relative;
+  background-color: #faaa4d;
+  left: -15px;
+  top: -10px;
+}
+
+.LeftMainAbout h2 {
+  font-size: 40px;
+  font-weight: 600;
+  position: relative;
+  padding-left: 13%;
+  line-height: 46px;
+  padding-top: 1%;
+}
+
+.LeftMainAbout p {
+  font-size: 20px;
+  width: 90%;
+  position: relative;
+  color: #000;
+  padding-left: 7%;
+  padding-top: 4%;
+  line-height: 28px;
+  font-weight: 300;
+}
+
+.BoxAboutContent {
+  width: 60%;
+  display: flex;
+  position: relative;
+  left: -10%;
+  top: 30%;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.BoxAboutContent .BoxFirst,
+.BoxLast {
+  opacity: 0;
+  border: none;
+  cursor: auto !important;
+}
+
+.BoxAboutContent div {
+  width: 32.3%;
+  position: relative;
+  background: #dbdbdb;
+  display: flex;
+  padding: 6% 0%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 0.7px solid #161616;
+}
+
+.css-12ejz0k h2 {
+  border: none !important;
+}
+
+.BoxAboutContent div h1 {
+  font-size: 35px;
+  font-weight: 700;
+  position: relative;
+  /* font-family: "Inter" sans-serif; */
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+.BoxAboutContent div p {
+  font-size: 18px;
+  font-weight: 300;
+  text-align: left;
+}
+
+.BoxAboutContent div:hover {
+  transform: scale(1.05);
+  transition: 0.3s all linear;
+  user-select: none;
+  cursor: pointer;
+}
+
+.LeftMainAbout {
+  opacity: 0;
+  transform: translateX(-70px);
+  transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+}
+
+.LeftMainAbout.animate {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.BoxAboutContent {
+  opacity: 0;
+  transform: translateX(70px);
+  transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+}
+
+.BoxAboutContent.animate {
+  opacity: 1;
+  transform: translateX(0);
+}

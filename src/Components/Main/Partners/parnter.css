@@ -1,0 +1,118 @@
+#TitleAbout {
+    padding-left: 0 !important;
+
+}
+
+.rate__company {
+    max-width: 80%;
+    height: auto;
+    padding: 5%;
+}
+.swiper-wrapper{
+    align-items: center;
+}
+
+.swiper-slide {
+    margin-bottom: 20px;
+}
+
+.swipertitle::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 5px;
+    position: relative;
+    background-color: #faaa4d;
+    left: -10px;
+    top: -10px
+}
+
+.swipersubtitle {
+    padding-left: 3%;
+}
+
+.Partners {
+    padding-bottom: 2%;
+}
+
+.Partners h1 {
+    font-family: "Raleway", sans-serif;
+    font-size: 38px;
+    font-weight: 400;
+    padding-top: 5px;
+    z-index: 2;
+    position: relative;
+    color: #000;
+}
+
+@media screen and (max-width:1000px) {
+    .swipertitle {
+        font-size: 30px !important;
+    }
+
+    .swipertitle::before {
+        width: 15px;
+        height: 4px;
+        left: -4px;
+        top: -8px;
+    }
+
+    .swipersubtitle {
+        font-size: 30px !important;
+        padding-left: 5%;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .swipertitle {
+        font-size: 25px !important;
+    }
+
+    .swipertitle::before {
+        width: 15px;
+        height: 4px;
+        left: -4px;
+        top: -8px;
+    }
+
+    .swipersubtitle {
+        font-size: 25px !important;
+        padding-left: 5%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .swipertitle {
+        font-size: 20px !important;
+    }
+
+    .swipertitle::before {
+        width: 14px;
+        height: 3px;
+        left: -3px;
+        top: -8px;
+    }
+
+    .swipersubtitle {
+        font-size: 20px !important;
+        padding-left: 10%;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .swipertitle {
+        font-size: 16px !important;
+    }
+
+    .swipertitle::before {
+        width: 12px;
+        height: 3px;
+        left: -2px;
+        top: -5px;
+    }
+
+    .swipersubtitle {
+        font-size: 16px !important;
+        padding-left: 10%;
+    }
+}

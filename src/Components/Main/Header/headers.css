@@ -1,0 +1,351 @@
+.Header {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  font-family: Tahoma, Geneva, sans-serif !important;
+}
+
+.HeaderLeft {
+  width: 7%;
+}
+
+.FilterBackgroun {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: #000;
+  opacity: 0.4;
+  z-index: 1;
+}
+
+.HeaderRight,
+.HeaderLeft {
+  background: none;
+  z-index: 100;
+}
+
+.BackroundVideo {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.HeaderLeft .IconPhone {
+  animation: flash 1s linear infinite alternate;
+  cursor: pointer;
+  position: fixed;
+  background-color: #1c2752;
+  right: 5%;
+  padding: 1%;
+  border-radius: 50%;
+  bottom: 3%;
+}
+
+.HeaderLeft .IconPhone::before {
+  content: '';
+  animation: pulse 1.8s linear infinite;
+  position: absolute;
+  border: 30px solid #1c275260;
+  left: -20px;
+  right: -20px;
+  top: -20px;
+  bottom: -20px;
+  border-radius: 50%;
+}
+
+.HeaderLeft .IconPhone::after {
+  animation-delay: .5s;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.4);
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1.01);
+    opacity: 0;
+  }
+}
+
+.HeaderLeft .IconPhoneClose {
+  animation: flash 1s linear infinite alternate;
+  cursor: pointer;
+  position: fixed;
+  background-color: #f0f0f0;
+  border: 2px solid #1c2752;
+  right: 5%;
+  padding: 1%;
+  border-radius: 50%;
+  bottom: 8%;
+}
+
+.HeaderLeft .CallIcon {
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  font-weight: 800;
+}
+
+.HeaderLeft .ClearIcon {
+  color: #1c2752;
+  width: 40px;
+  height: 40px;
+  font-weight: 800;
+}
+
+.HeaderLeft {
+  z-index: 200;
+}
+
+.HeaderRight {
+  z-index: 200;
+  padding-left: 2%;
+  animation: animate 0.7s ease-out;
+}
+
+button {
+  user-select: none;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+.HeaderRight h1 {
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 65px;
+  font-weight: 600;
+  padding-bottom: 3%;
+  color: #fff;
+}
+
+.HeaderLogo35 {
+  position: absolute;
+  z-index: 100;
+  right: 3%;
+  top: 5%;
+}
+
+.HeaderLogo35 img {
+  width: 350px;
+}
+
+.HeaderRight p {
+  font-family: Tahoma, Geneva, sans-serif;
+  width: 3%;
+  color: #fff;
+  font-size: 35px;
+  width: 100%;
+  margin: auto;
+  padding-bottom: 7%;
+  line-height: 40px;
+  font-weight: 500;
+}
+
+.ActiveResponsPhone {
+  display: none;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.ActiveResponsPhone button {
+  padding: 25px 20%;
+  font-size: 25px;
+  margin: auto;
+  margin-top: 20%;
+  border-radius: 50px;
+  font-weight: 500;
+  font-family: Tahoma, Geneva, sans-serif;
+  border: 2px solid #1c2752;
+  background-color: #1c2752;
+  color: #ffff;
+  cursor: pointer;
+}
+
+.ActiveResponsPhone button:hover {
+  background-color: #ffff;
+  color: #1c2752;
+  transition: 0.2s all linear;
+}
+
+.ActiveResponsPhone p {
+  text-align: center;
+}
+
+.ActiveResponsPhone .LastHeader {
+  width: 50%;
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  bottom: 3%;
+  text-align: center;
+  line-height: 40px;
+  font-weight: 600;
+}
+
+.ActiveResponsPhone .LastHeader h5 {
+  font-size: 22px;
+  text-align: center;
+}
+
+.HeaderBtn {
+  display: flex;
+  gap: 1vw;
+}
+
+.HeaderBtn button {
+  padding: 20px 10% !important;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  border: 1px solid #1c2752;
+  animation: animate 0.7s ease-out;
+}
+
+@keyframes animate {
+  from {
+    opacity: 0;
+    transform: translateY(70px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.HeaderBtn :nth-child(1) {
+  color: #ffff;
+  background-color: #1c2752;
+  transition: 0.2s linear all;
+}
+
+.HeaderBtn :nth-child(2) {
+  color: #ffff;
+  background-color: #1c2752;
+  transition: 0.2s linear all;
+}
+
+.HeaderBtn :nth-child(1):hover {
+  color: #1c2752;
+  background-color: #ffff;
+}
+
+.HeaderBtn :nth-child(2):hover {
+  color: #1c2752;
+  background-color: #fff;
+}
+
+@keyframes flash {
+  0% {
+    transform: rotate(10deg);
+  }
+
+  20% {
+    transform: rotate(-5deg);
+  }
+
+  100% {
+    transform: scale(1.02);
+  }
+}
+
+.backgroundSwiper {
+  background-color: #fff;
+  width: 100%;
+  height: 100vh;
+}
+
+@media screen and (max-width:1360px) {
+  .HeaderLogo35 {
+    right: 1%;
+  }
+}
+
+@media screen and (max-width:1100px) {
+  .HeaderLogo35 img {
+    width: 250px;
+  }
+
+  .HeaderLogo35 {
+    top: 2%;
+  }
+}
+
+@media screen and (max-width:850px) {
+  .HeaderLogo35 img {
+    width: 250px;
+  }
+
+  .HeaderLogo35 {
+    top: 9%;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .HeaderLogo35 {
+    display: none;
+  }
+}
+
+.chat-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.chat-button:hover {
+  background-color: #004494;
+}
+
+.form-container {
+  position: fixed;
+  bottom: 70px;
+  right: 20px;
+  width: 400px;
+  max-width: 90%;
+  transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+  transform: translateY(100%);
+  opacity: 0;
+  z-index: 999;
+}
+
+.form-container.visible {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+@media screen and (max-width:1200px) {
+  .HeaderLeft .IconPhone .CallIcon {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+@media screen and (max-width:700px) {
+  .HeaderLeft .IconPhone .CallIcon {
+    padding: 7%;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .HeaderLeft .IconPhone .CallIcon {
+    padding: 10%;
+    width: 40px;
+    height: 40px;
+  }
+}

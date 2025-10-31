@@ -1,0 +1,316 @@
+.FooterContainer {
+  width: 100%;
+  background-color: #1c2752;
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+}
+
+img {
+  user-select: none;
+}
+
+.FooterTop {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2vw;
+  padding-top: 1%;
+}
+
+.FooterTop p {
+  font-size: 23px;
+}
+
+.FooterContainer {
+  padding: 0 2%;
+}
+
+.FooterBottom .FooterLast {
+  padding-bottom: 1%;
+}
+
+.FooterTop img {
+  width: 7%;
+}
+
+.FooterCenter {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  top: -70px;
+  flex-wrap: wrap;
+  gap: 3%;
+}
+
+.FooterCenter h4 {
+  padding: 1% 0;
+}
+
+.FooterCenter a {
+  color: #fff;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.FooterCenter .FooterSocials {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1vw;
+}
+
+.FooterCenter .FooterSocials img {
+  width: 80px;
+}
+
+.FooterContacts {
+  display: flex;
+  justify-content: space-between;
+  gap: 3vw;
+  flex-wrap: wrap;
+}
+
+.FooterContactsBox {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.FooterContactsBox img {
+  width: 90px;
+}
+
+.FooterCenter h4 {
+  font-size: 21px;
+}
+
+.FooterIcon35 {
+  width: 350px;
+}
+
+.FooterIcon35 img {
+  width: 100%;
+}
+
+.Logoiso {
+  width: 150px;
+}
+
+.Logoiso img {
+  width: 100%;
+  position: relative;
+  top: -25px;
+}
+
+@media screen and (max-width:1937px) {
+  .FooterIcon35 {
+    width: 300px;
+  }
+
+  .FooterContactsBox img {
+    width: 80px;
+  }
+}
+
+
+@media screen and (max-width:1793px) {
+  .FooterCenter .FooterSocials {
+    padding-top: 2%;
+  }
+
+  .FooterContacts {
+    width: 100%;
+    justify-content: space-between;
+    position: relative;
+    top: -20px;
+  }
+
+  .FooterCenter {
+    position: static;
+  }
+
+  .FooterCenter {
+    top: 0px;
+  }
+
+  .FooterIcon35 {
+    width: 270px;
+  }
+}
+
+@media screen and (max-width:1337px) {
+  .FooterCenter .FooterSocials {
+    padding-bottom: 2%;
+  }
+}
+
+@media screen and (max-width:1300px) {
+  .FooterContactsBox {
+    width: 47%;
+  }
+
+  .FooterContacts {
+    width: 100%;
+
+  }
+
+  .FooterIcon35 {
+    width: 47%;
+  }
+
+  .FooterContacts {
+    top: 0;
+    padding-top: 1%;
+  }
+
+  .FooterIcon35 img {
+    width: 60%;
+  }
+
+  .FooterTop img {
+    width: 10%;
+  }
+}
+
+@media screen and (max-width:800px) {
+  .FooterCenter .FooterSocials {
+    gap: 5vw;
+    padding: 1% 0;
+  }
+
+  .Logoiso {
+    width: 135px;
+  }
+
+  .FooterTop img {
+    width: 17%;
+  }
+
+  .FooterTop p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width:650px) {
+  .FooterCenter .FooterSocials img {
+    width: 70px;
+  }
+
+  .FooterTop p {
+    font-size: 18px;
+  }
+
+  .FooterTop img {
+    width: 20%;
+    padding-top: 2%;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .FooterContactsBox img {
+    width: 75px;
+  }
+
+  .FooterIcon35 img {
+    width: 73%;
+  }
+
+  .FooterCenter a {
+    font-size: 16px;
+  }
+
+  .FooterCenter h4 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .Logoiso img {
+    top: -10px;
+    width: 80%;
+  }
+
+  .FooterCenter h4 {
+    font-size: 16px;
+  }
+
+  .FooterCenter a {
+    font-size: 14px;
+  }
+
+  .FooterCenter .FooterSocials img {
+    width: 66px;
+  }
+
+  .FooterContactsBox img {
+    width: 65px;
+  }
+}
+
+@media screen and (max-width:450px) {
+  .FooterContactsBox {
+    width: 100%;
+    gap: 3vw;
+    margin-bottom: 2%;
+  }
+
+  .FooterContacts {
+    justify-content: flex-start;
+  }
+
+  .FooterIcon35 img {
+    width: 100%;
+  }
+
+  .FooterCenter .FooterSocials {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 4% 0;
+  }
+
+  .Logoiso img {
+    width: 120px;
+    position: absolute;
+    right: 15%;
+    top: 75%;
+  }
+
+  .FooterCenter h4 {
+    font-size: 18px;
+  }
+
+  .FooterIcon35 {
+    width: 50%;
+  }
+
+  .FooterCenter a {
+    font-size: 16px;
+  }
+
+  .FooterContainer {
+    padding-bottom: 25px;
+  }
+
+  .FooterTop img {
+    width: 25%;
+  }
+
+  .FooterContactsBoxText {
+    width: 90%;
+  }
+
+  .FooterCenter .FooterSocials {
+    width: 100%;
+    justify-content: space-between;
+    padding-right: 5%;
+  }
+
+  .FooterCenter .FooterSocials img {
+    width: 68px;
+  }
+}

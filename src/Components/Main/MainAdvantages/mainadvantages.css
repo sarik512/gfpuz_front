@@ -1,0 +1,164 @@
+.OursAdvantage {
+  /* background-image: url("https://wallpapercave.com/wp/wp2003541.jpg");
+  background-repeat: no-repeat; */
+
+  background-size: cover;
+  width: 100%;
+  background-position: center;
+}
+
+.MainAdvantage h1 {
+  font-size: 40px;
+  font-weight: 600;
+  position: relative;
+  padding-left: 3%;
+  color: #000;
+}
+
+.MainAdvantage h2 {
+  color: #000;
+}
+
+.MainAdvantage {
+  position: relative;
+  color: #fff;
+  font-family: Tahoma, Geneva, sans-serif !important;
+  padding: 5% 2%;
+}
+
+.MainAdvantage h1::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 5px;
+  font-weight: 500;
+  position: relative;
+  background-color: #faaa4d;
+  left: -15px;
+  top: -10px;
+}
+
+.MainAdvantage h2 {
+  font-size: 40px;
+  font-weight: 600;
+  position: relative;
+  padding-left: 7.5%;
+  line-height: 46px;
+  padding-top: 1%;
+}
+
+.BoxMainAdvatageFoot {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 4% 2% 2% 2%;
+}
+
+.BoxMainAdvatageFoot div {
+  width: 27%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  user-select: none;
+  cursor: pointer;
+}
+
+.BoxMainAdvatageFoot .OurMainAdvantage:hover {
+  transform: translateY(-7px);
+  transition: 0.3s all linear;
+}
+
+.BoxMainAdvatageFoot div h3 {
+  font-size: 25px;
+  line-height: 28px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.BoxMainAdvatageFoot div p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 300;
+  padding-top: 5%;
+}
+
+.OurMainAdvantage {
+  background-color: #1c2752;
+  min-height: 450px;
+  padding: 3%;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.BoxMainAdvatageFoot div .MainAdvantageIcon {
+  width: 100%;
+  padding-bottom: 10%;
+}
+
+.BoxMainAdvatageFoot div .MainAdvantageIcon img {
+  width: 35%;
+  filter: invert(1);
+}
+
+@media screen and (max-width: 1200px) {
+  .OurMainAdvantage {
+    width: 30%;
+    min-height: 400px;
+    padding: 2%;
+  }
+
+  .BoxMainAdvatageFoot div .MainAdvantageIcon img {
+    width: 32%;
+  }
+
+  .BoxMainAdvatageFoot div p {
+    font-size: 18px;
+  }
+
+  .BoxMainAdvatageFoot div h3 {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .OurMainAdvantage {
+    min-height: 350px;
+    padding: 2%;
+  }
+
+  .BoxMainAdvatageFoot div p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 450px) {}
+
+@media screen and (max-width: 650px) {
+  .BoxMainAdvatageFoot div h3 {
+    font-size: 16px !important;
+  }
+}
+
+.h1s {
+  opacity: 0;
+  transform: translateY(70px);
+  transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+}
+
+.h1s.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.OurMainAdvantage {
+  opacity: 0;
+  transform: translateY(-70px);
+  transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+}
+
+.OurMainAdvantage.animate {
+  opacity: 1;
+  transform: translateY(0);
+}

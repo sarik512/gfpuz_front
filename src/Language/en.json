@@ -1,0 +1,68 @@
+{
+  "naviagtion": {
+    "home": "Home",
+    "aboutcompany": "About company",
+    "services": "Services",
+    "Ourprojects": "Our projects",
+    "Ourachievement": "Our achievement",
+    "events": "Events",
+    "Contacts": "Contacts",
+    "gallery": "Gallery"
+  },
+  "header": {
+    "headerbtn1": "More",
+    "headerbtn2": "Contacts",
+    "headerbtn3": "More"
+  },
+  "mainadvantages": {
+    "text1": "Our",
+    "text2": "advantage"
+  },
+  "maincommand": {
+    "title": "Company management"
+  },
+  "aboutpage": {
+    "abouttitle1": "About company",
+    "abouttitle2": "Our branches",
+    "partnerstitle1": "Our",
+    "partnerstitle2": "partners"
+  },
+  "servicespage": {
+    "serveicestitle": "Our services"
+  },
+  "ProjectPage": {
+    "projecttitle": "Projects with our participation"
+  },
+  "achievementpage": {
+    "achievementitle": "Sections of our achievements:",
+    "achievementfoottext1": "Our YouTube channel"
+  },
+  "feedbackform": {
+    "titlefeedback": "Feedback",
+    "inputnamelabel": "Name",
+    "inputnameplaceholder": "What is your name?",
+    "inputnameerror": "The name cannot be empty",
+    "inputemaillabel": "Mail",
+    "inputemailplaceholder": "Your email address?",
+    "inputemailerror": "The mail cannot be empty",
+    "inputnumberlabel": "Phone number",
+    "inputnumbererror": "The phone number cannot be empty",
+    "inputmessagelabel": "Message",
+    "inputmessageplaceholder": "Your message",
+    "inputmessageerror": "The message cannot be empty",
+    "sumbitbtnform": "Send",
+    "successformsubit": {
+      "successtitle": "Your data has been sent successfully. We will contact you as soon as possible.",
+      "successbtnclose": "Close"
+    },
+    "errorformsubit": {
+      "errortitle": "Something went wrong. Please try again later.",
+      "errorbtnclose": "Close"
+    }
+  },
+  "footer": {
+    "text1": "Mail Us",
+    "text2": "Call Us",
+    "text3": "Location"
+  }
+}

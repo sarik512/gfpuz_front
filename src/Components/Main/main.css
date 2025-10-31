@@ -1,0 +1,978 @@
+.BackgroundMain {
+  background: #ffffff;
+}
+
+.main {
+  padding-top: 70px;
+}
+
+@media screen and (max-width: 1300px) {
+  .BoxAboutContent {
+    left: -13%;
+  }
+
+  .LeftMainAbout p {
+    width: 100%;
+  }
+
+  #InfoCompany {
+    font-size: 20px !important;
+  }
+
+  .ContactMainLeftHeader {
+    padding-top: 10%;
+  }
+
+  .ContactMainLeftCenter img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .ContactMainFeft {
+    width: 65%;
+  }
+
+  .ContactMainLeftHeader .InfoMainContact img {
+    width: 35px;
+  }
+
+  .ContactMainLeftHeader .InfoMainContact h3 {
+    font-size: 18px;
+  }
+
+  .ContactMainLeftHeader .InfoMainContact p,
+  a {
+    font-size: 14px;
+  }
+
+  .LeftMainAbout h2 {
+    font-size: 35px;
+    padding-left: 17%;
+  }
+
+  .MainAdvantage h2 {
+    font-size: 35px !important;
+    padding-left: 8%;
+  }
+
+  .LeftMainAbout h1 {
+    font-size: 35px;
+  }
+
+  .LeftMainAbout h2 {
+    font-size: 35px;
+  }
+
+  .MainAdvantage h1 {
+    font-size: 35px !important;
+  }
+
+  .MainAdvantage h2 {
+    font-size: 35px !important;
+    padding-left: 7%;
+  }
+
+  .MainCommand h1 {
+    font-size: 35px;
+  }
+
+  .MainCommand h2 {
+    font-size: 35px;
+    padding-left: 7%;
+  }
+
+  .react-international-phone-flag-emoji {
+    width: 20px !important;
+    height: 20px !important;
+  }
+
+  .LeftMainAbout p {
+    font-size: 20px;
+  }
+
+  .SendBtn {
+    width: 22%;
+  }
+
+  .SendBtn button {
+    font-size: 13px;
+  }
+
+  .PhoneInputInfo {
+    width: 36% !important;
+  }
+
+  .NameInfo {
+    width: 36% !important;
+  }
+}
+
+@media screen and (max-width: 1210px) {
+  .LanguageBtn {
+    gap: 3% !important;
+  }
+
+  .NavLinks {
+    gap: 0 !important;
+    justify-content: space-between !important;
+    width: 85%;
+  }
+
+  .NavLeft {
+    padding-left: 6% !important;
+  }
+
+  .LanguageBtn {
+    width: 15% !important;
+  }
+
+  .Navigation {
+    height: 75px !important;
+  }
+
+  .BoxAboutContent {
+    top: 23%;
+    left: -5%;
+  }
+
+  .BoxAboutContent div h1 {
+    font-size: 45px;
+  }
+
+  .BoxAboutContent div p {
+    font-size: 14px;
+  }
+
+  .BoxAboutContent div {
+    padding: 7%;
+  }
+
+  #InfoCompany {
+    font-size: 20px !important;
+  }
+}
+
+@media screen and (max-width: 1001px) {
+  .HeaderRight h1 {
+    font-size: 45px;
+  }
+
+  .ContactInfoBox h4 {
+    font-size: 18px;
+  }
+
+  .HeaderRight p {
+    font-size: 20px;
+  }
+
+  .ContactComponent h1 {
+    font-size: 30px !important;
+  }
+
+  .LeftMainAbout p {
+    font-size: 16px;
+  }
+
+  .BoxAboutContent {
+    top: 34%;
+    left: -14%;
+  }
+
+  .LeftMainAbout h1 {
+    font-size: 25px;
+  }
+
+  .LeftMainAbout h2 {
+    font-size: 25px;
+    padding-left: 17%;
+  }
+
+  .NavLeft {
+    justify-content: flex-start !important;
+  }
+
+  .NavLinks {
+    width: 90%;
+
+    gap: 15px !important;
+  }
+
+  .NavLinks li a {
+    font-size: 12px !important;
+  }
+
+  .Navigation {
+    height: 65px !important;
+  }
+
+  .HeaderLeft img {
+    width: 37px;
+  }
+
+  .BoxAboutContent div {
+    padding: 6%;
+  }
+
+  .BoxAboutContent div h1 {
+    font-size: 27px;
+  }
+
+  .BoxAboutContent div p {
+    font-size: 12px;
+  }
+
+  #InfoCompany {
+    font-size: 18px !important;
+  }
+
+  .MainAbout {
+    height: 900px;
+  }
+
+  .MainAdvantage h1 {
+    font-size: 25px !important;
+  }
+
+  .MainAdvantage h1::before {
+    width: 20px;
+  }
+
+  .MainCommand h1::before {
+    width: 20px;
+    left: -10px;
+  }
+
+  .MainCommand h1 {
+    font-size: 25px !important;
+  }
+
+  .MainAdvantage h2 {
+    font-size: 25px !important;
+    padding-left: 8%;
+  }
+
+  .BoxMainAdvatageFoot div .MainAdvantageIcon img {
+    width: 25%;
+  }
+
+  .MainProjects div {
+    height: 380px;
+    font-size: 20px;
+  }
+
+  .ContactMainLeftHeader .InfoMainContact img {
+    width: 28px;
+  }
+
+  .ContactMainLeftHeader .InfoMainContact h3 {
+    font-size: 16px;
+  }
+
+  .ContactMainLeftHeader .InfoMainContact p {
+    font-size: 12px;
+    width: 120%;
+    margin-top: 10px;
+  }
+
+  .ContactMainLeftHeader .InfoMainContact p a {
+    font-size: 12px;
+    width: 120%;
+  }
+
+  .ContactMainLeftCenter {
+    padding-top: 5%;
+  }
+
+  .react-international-phone-country-selector-dropdown {
+    height: 120px !important;
+    width: 200px;
+  }
+
+  .ContactMainLeftCenter img {
+    width: 18px;
+  }
+
+  .ModalFeedback {
+    position: relative;
+    flex-wrap: wrap;
+    padding-top: 5%;
+  }
+
+  .SendBtn {
+    width: 100%;
+  }
+
+  .SendBtn button {
+    font-size: 16px;
+  }
+
+  .ModalFeedback label {
+    font-size: 14px;
+  }
+
+  .react-international-phone-input-container input {
+    font-size: 14px !important;
+  }
+
+  .NameInfo input {
+    font-size: 14px !important;
+  }
+
+  .PhoneInputInfo {
+    width: 49% !important;
+  }
+
+  .NameInfo {
+    width: 49% !important;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .ContactInfo {
+    flex-wrap: wrap;
+    gap: 6vw;
+  }
+
+  .ContactInfo .ContactInfoBox {
+    width: 85% !important;
+  }
+
+  .ContactInfoBox p {
+    font-size: 25px !important;
+  }
+
+  .ContactInfoBox p {
+    font-size: 20px !important;
+  }
+}
+
+@media screen and (max-width: 861px) {
+  .AboutText {
+    font-size: 18px !important;
+  }
+
+  .AboutPage h2 {
+    font-size: 36px !important;
+  }
+
+  .AboutCompanyLacation .AboutBoxLacation3 .AboutBoxLacation3Left .AboutBoxLacation3LeftBox p {
+    font-size: 16px !important;
+  }
+
+  .AboutPageLocationSubtitle h2 {
+    font-size: 27px !important;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .Header {
+    color: #fff;
+  }
+
+  .main {
+    padding-top: 0px;
+  }
+
+  .AboutPage {
+    padding-top: 80px !important;
+  }
+
+  .AboutBoxLacation3Right div h1 {
+    font-size: 80px !important;
+  }
+
+  .AboutBoxLacation3Right div h3 {
+    position: relative;
+    top: -50px;
+    font-size: 20px !important;
+  }
+
+  .MainLine {
+    display: none;
+  }
+
+  .Navigation1 {
+    display: none !important;
+  }
+
+  .MainAbout {
+    padding-top: 5%;
+  }
+
+  .BurgerMenuNotActive {
+    display: block !important;
+  }
+
+  .ContactsFooterMain {
+    flex-direction: column;
+  }
+
+  .ContactMainFeft {
+    width: 98%;
+  }
+
+  .AdressRight {
+    display: none;
+  }
+
+  .AdressRight2 {
+    display: block;
+    padding-top: 2%;
+  }
+
+  .AdressRight2 iframe {
+    width: 100%;
+    height: 300px;
+  }
+
+  .ContactMainFeftFotter {
+    padding-bottom: 8%;
+  }
+
+  .ContactMainLeftCenter {
+    padding-top: 3%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .HeaderRight h1 {
+    font-size: 40px;
+  }
+
+  .HeaderRight p {
+    font-size: 18px;
+  }
+
+  .HeaderBtn {
+    gap: 3vw;
+  }
+
+  .HeaderBtn button {
+    font-size: 14px;
+    padding: 15px 9% !important;
+  }
+
+  .BoxAboutContent {
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    flex-wrap: wrap;
+  }
+
+  .BoxAboutContent div {
+    width: 47%;
+  }
+
+  .LeftMainAbout p {
+    width: 60%;
+  }
+
+  .MainAbout {
+    position: relative;
+  }
+
+  .LeftMainAbout {
+    width: 100%;
+  }
+
+  .BoxMainAdvatageFoot div {
+    width: 30%;
+  }
+
+  .LeftMainAbout h1,
+  h2 {
+    font-size: 22px !important;
+  }
+
+  .MainAdvantage h1,
+  h2 {
+    font-size: 22px !important;
+  }
+
+  .MainAdvantage h2 {
+    font-size: 22px !important;
+  }
+
+  .MainCommand h1 {
+    font-size: 22px !important;
+  }
+
+  .MainCommand h2 {
+    font-size: 22px !important;
+  }
+
+  .MainProjects {
+    gap: 3vh;
+  }
+
+  .MainProjects div {
+    height: 300px;
+    width: 45%;
+  }
+
+  .MainOpenProjectsBTN {
+    font-size: 14px;
+    padding: 10px 5% !important;
+  }
+}
+
+@media screen and (max-width: 772px) {
+  .BoxAboutContent {
+    left: 42%;
+    top: 45%;
+  }
+
+  .LeftMainAbout p {
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 585px) {
+  .BoxAboutContent {
+    left: 42%;
+    top: 42%;
+  }
+
+  .LeftMainAbout p {
+    width: 68%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  .AboutPage {
+    padding-top: 70px !important;
+  }
+
+  .Header {
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .HeaderRight h1 {
+    width: 100%;
+    font-size: 38px;
+    padding-top: 85px;
+  }
+
+  .HeaderRight p {
+    font-size: 28px;
+    padding-bottom: 0;
+    padding-top: 10%;
+  }
+
+  .HeaderBtn {
+    display: none;
+  }
+
+  .NotActiveResponsPhone {
+    display: none !important;
+  }
+
+  .ActiveResponsPhone {
+    display: flex;
+  }
+
+  .HeaderRight {
+    padding-left: 0;
+  }
+
+  .ContactMainLeftHeader .InfoMainContact p {
+    padding-bottom: 5%;
+  }
+
+  .MainOpenProjectsBTN {
+    font-size: 15px;
+    padding: 12px 7% !important;
+  }
+
+  .MainProjects div {
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .HeaderRight h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .HeaderRight p {
+    font-size: 27px;
+    width: 90%;
+  }
+
+  .ActiveResponsPhone button {
+    font-size: 20px;
+    padding: 22px 18%;
+    border-radius: 44px;
+  }
+
+  .ActiveResponsPhone .LastHeader h5 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .BoxAboutContent {
+    top: 49%;
+    left: 41%;
+  }
+
+  .MainAbout {
+    height: 820px;
+  }
+
+  .LeftMainAbout p {
+    font-size: 13px;
+    width: 65%;
+  }
+
+  .BoxAboutContent div h1 {
+    font-size: 21px;
+  }
+
+  .BoxAboutContent div p {
+    font-size: 10px;
+  }
+
+  .BoxAboutContent div {
+    padding: 7% 6%;
+  }
+
+  #InfoCompany {
+    font-size: 16px !important;
+  }
+
+  .BoxMainAdvatageFoot div h3 {
+    width: 95%;
+    font-size: 18px !important;
+    line-height: 10px;
+  }
+
+  .BoxMainAdvatageFoot div p {
+    font-size: 16px;
+    padding-top: 5%;
+  }
+
+  .BoxMainAdvatageFoot div {
+    width: 75%;
+    padding: 4% 0;
+    margin-bottom: 2vh;
+  }
+
+  .BoxMainAdvatageFoot {
+    flex-wrap: wrap !important;
+  }
+
+  .ActiveResponsPhone button {
+    margin-top: 16%;
+  }
+
+  .MainProjects div {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+
+  .LeftMainAbout h1,
+  .LeftMainAbout h2 {
+    font-size: 19px !important;
+  }
+  .LeftMainAbout p{
+    font-size: 16px !important;
+  }
+  .LeftMainAbout h2 {
+    line-height: 22px;
+    padding-bottom: 1%;
+  }
+
+  .MainCommand h1 {
+    font-size: 19px !important;
+  }
+
+  .MainAdvantage h1,
+  .MainAdvantage h2 {
+    font-size: 19px !important;
+    line-height: 22px;
+  }
+
+  .MainAdvantage h2 {
+    padding-bottom: 1%;
+  }
+
+  .MainAdvantage h1::before {
+    height: 3px;
+    width: 15px;
+    top: -5px;
+    left: -5px;
+  }
+
+  .MainCommand h1::before {
+    height: 3px;
+    width: 15px;
+    top: -5px;
+    left: -5px;
+  }
+
+  .BoxLast2 {
+    padding: 10% 0 !important;
+  }
+
+  #InfoCompany {
+    font-size: 14px !important;
+  }
+
+  .LeftMainAbout h1::before {
+    height: 3px;
+    width: 15px;
+    left: -10px;
+    top: -8px;
+  }
+
+  .BoxAboutContent .BoxFirst,
+  .BoxLast {
+    display: none;
+  }
+
+  .MainAdvantage h1::before {
+    height: 3px;
+    width: 15px;
+    left: -10px;
+    top: -8px;
+  }
+
+  .HeaderRight h1 {
+    font-size: 24px;
+    padding-top: 5%;
+    position: relative;
+    top: 100px;
+    font-weight: 600;
+    padding-bottom: 25px;
+  }
+
+  .HeaderRight p {
+    position: relative;
+    top: 55px;
+    font-size: 24px;
+    padding: 10% 0;
+    padding-bottom: 15vh;
+  }
+
+  .ActiveResponsPhone .LastHeader h5 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .LeftMainAbout {
+    padding-top: 15%;
+  }
+
+  .BoxAboutContent {
+    position: static;
+  }
+
+  .MainAbout {
+    flex-wrap: wrap;
+    height: 890px;
+  }
+
+  .BoxAboutContent {
+    width: 100%;
+    padding: 0 3%;
+    justify-content: space-around;
+    gap: 0px;
+  }
+
+  .BoxAboutContent div {
+    width: 50%;
+    text-align: center;
+    display: flex;
+    padding: 7% 11%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: self-start;
+  }
+
+  .BoxAboutContent div h1 {
+    padding-left: 0%;
+    font-size: 18px !important;
+  }
+
+  .LeftMainAbout p {
+    width: 100%;
+    padding-bottom: 5%;
+  }
+
+  .BoxAboutContent div h2 {
+    width: 100% !important;
+    border: none;
+  }
+
+  .MainAdvantage {
+    padding-top: 20%;
+  }
+
+  .MainAdvantage h2 {
+    padding-left: 15%;
+  }
+
+  .BoxMainAdvatageFoot div {
+    margin-bottom: 22px;
+  }
+
+  .BoxMainAdvatageFoot div .MainAdvantageIcon {
+    padding-bottom: 1%;
+  }
+
+  .BoxMainAdvatageFoot div h3 {
+    line-height: 26px;
+    text-align: center;
+  }
+
+  .BoxMainAdvatageFoot div p {
+    width: 95%;
+    padding-top: 4%;
+    font-size: 15px;
+  }
+
+  .MainCommand h2 {
+    padding-left: 15%;
+    font-size: 18px !important;
+    line-height: 22px !important;
+  }
+
+  .MainProjects div {
+    max-width: 100%;
+    min-width: 75%;
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .MainCommand {
+    padding: 6% 2%;
+  }
+
+  .ContactMainLeftHeader {
+    flex-wrap: wrap;
+  }
+
+  .ContactMainLeftHeader .InfoMainContact {
+    width: 49%;
+  }
+
+  .ContactMainLeftHeader :nth-child(3) {
+    width: 70%;
+    padding-top: 10%;
+  }
+
+  .AdressRight2 {
+    padding-top: 10%;
+  }
+
+  .AdressRight2 iframe {
+    height: 250px;
+    border: none;
+  }
+
+  .PhoneInputInfo {
+    width: 100% !important;
+  }
+
+  .NameInfo {
+    width: 100% !important;
+  }
+
+  .ModalFeedback {
+    gap: 3vh;
+    padding: 10% 6%;
+  }
+
+  .ContactMainLeftCenter {
+    gap: 10vw;
+  }
+
+  .ContactMainLeftCenter img {
+    width: 25px !important;
+    height: 25px !important;
+  }
+
+  .SendBtn button {
+    bottom: 0px;
+    height: 55px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  #InfoCompany {
+    font-size: 12px !important;
+  }
+}
+
+@media screen and (max-width: 1533px) {
+  .AboutCompanyLacation .AboutBoxLacation3 .AboutBoxLacation3Left .AboutBoxLacation3LeftBox h3 {
+    font-size: 35px;
+  }
+
+  .AboutBoxLacation3Right div h1 {
+    font-size: 150px !important;
+    text-align: center;
+    padding-bottom: 0px;
+  }
+
+  .AboutBoxLacation3Right div h3 {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 1360px) {
+  .AboutCompanyLacation .AboutBoxLacation3 .AboutBoxLacation3Left .AboutBoxLacation3LeftBox {
+    width: 45%;
+  }
+
+  .AboutBoxLacation3Right div h3 {
+    text-align: center;
+  }
+
+  .ContactInfoBox h4 {
+    font-size: 20px;
+  }
+
+  .ContactInfoBox p {
+    font-size: 17px;
+  }
+
+  .ContactComponent h1 {
+    font-size: 38px;
+  }
+
+  .ContactInfo .ContactInfoBox {
+    padding: 6% 2% !important;
+  }
+}
+
+@media screen and (max-width: 932px) {
+  .AboutBoxLacation3Right div h1 {
+    font-size: 100px !important;
+  }
+
+  .AboutBoxLacation3Right div h3 {
+    font-size: 25px;
+  }
+
+  .AboutCompanyLacation .AboutBoxLacation3 {
+    padding: 5%;
+  }
+
+  .AboutCompanyLacation .AboutBoxLacation3 .AboutBoxLacation3Left {
+    top: 10%;
+  }
+
+  .AboutCompanyLacation .AboutBoxLacation3 .AboutBoxLacation3Left .AboutBoxLacation3LeftBox h3 {
+    padding-top: 5% !important;
+  }
+}

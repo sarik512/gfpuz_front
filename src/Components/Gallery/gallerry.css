@@ -1,0 +1,180 @@
+.GalleryHeader {
+  width: 100%;
+  height: 100vh;
+
+}
+
+#gallerytitleheader {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 50px;
+  text-align: center;
+  transition: opacity 0.9s ease-out;
+  transform: translateY(0%);
+}
+
+#gallerytitleheader.hidden {
+  transition: 0.9s all linear;
+  transform: translateY(-25%);
+  opacity: 0;
+}
+
+.gallerytitle {
+  padding-top: 3%;
+  width: 80%;
+  margin: auto;
+  font-size: 30px;
+  line-height: 40px;
+  padding-bottom: 3%;
+}
+
+.gallerytitle,
+.gallerysubtitle {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.gallerysubtitle {
+  font-size: 22px;
+  line-height: 45px;
+  padding-bottom: 1%;
+}
+
+.galleryimgs {
+  width: 19%;
+  max-height: 320px;
+  min-height: 320px;
+  margin: calc(5% / 10);
+  border-radius: 10px;
+  overflow: hidden;
+  /* Убедитесь, что это свойство есть */
+  cursor: pointer;
+}
+
+
+.galleryimgs img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.galleryimgs img:hover {
+  transform: scale(1.1);
+  transition: 0.1s all linear;
+}
+
+.galleryimgscontent {
+  width: 95%;
+  margin: auto;
+}
+
+@media screen and (max-width: 1700px) {
+  .galleryimgs {
+    max-height: 280px;
+    min-height: 280px;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .galleryimgs {
+    max-height: 260px;
+    min-height: 260px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .galleryimgs {
+    width: 23.5%;
+    max-height: 250px;
+    min-height: 250px;
+    margin: calc(6% / 10);
+  }
+
+  .gallerytitle {
+    font-size: 27px;
+  }
+
+  .gallerysubtitle {
+    font-size: 20px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .galleryimgs {
+    max-height: 240px;
+    min-height: 240px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .galleryimgs {
+    width: 30.6%;
+    max-height: 180px;
+    min-height: 180px;
+    margin: calc(7,2% / 10);
+  }
+
+  #gallerytitleheader {
+    font-size: 45px;
+  }
+
+  .gallerytitle {
+    font-size: 25px;
+  }
+
+  .gallerysubtitle {
+    font-size: 18px;
+    line-height: 35px;
+    padding-bottom: 3%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .galleryimgs {
+    width: 46.5%;
+    height: auto;
+    margin: calc(9% / 6);
+  }
+
+  .GalleryHeader {
+    height: 85vh;
+  }
+
+  #gallerytitleheader {
+    font-size: 38px;
+  }
+
+  .gallerytitle {
+    font-size: 16px;
+  }
+
+  .gallerysubtitle {
+    font-size: 15px;
+    line-height: 30px;
+    padding-bottom: 3%;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .gallerytitle {
+    width: 95%;
+    font-size: 16px;
+    padding: 7% 0;
+    line-height: 22px;
+  }
+
+  .gallerysubtitle {
+    font-size: 14px;
+    line-height: 25px;
+    padding-bottom: 3%;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .galleryimgs {
+    max-height: 180px;
+    min-height: 180px;
+  }
+}

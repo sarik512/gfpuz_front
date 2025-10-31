@@ -1,0 +1,387 @@
+/* @font-face {
+  font-family: 'Lucida';
+  src: url('../../Fonts/LucidaSans/LSANS.TTF') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+} */
+
+.AboutPage {
+  width: 100%;
+  padding: 1% 2%;
+  background: #ffffff;
+}
+
+.AboutText {
+  font-family: Tahoma, Geneva, sans-serif !important;
+  font-size: 25px;
+  z-index: 2;
+  position: relative;
+  font-weight: 400;
+  color: #000;
+  line-height: 40px;
+}
+
+.AboutPage h2 {
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 40px;
+  line-height: 46.96px;
+  font-weight: 400;
+  color: #1c2752;
+  padding-top: 3%;
+  z-index: 2;
+  position: relative;
+  color: #000;
+}
+
+.AboutPageLocationSubtitle {
+  position: relative;
+  z-index: 20;
+  display: flex;
+  z-index: 20 !important;
+  gap: 10%;
+  padding-top: 0%;
+  color: #1c2752;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+.AboutPageLocationSubtitle h2 {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 37.57px;
+  color: #000;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.AboutPageLocationSubtitle h2:hover {
+  border-bottom: 1px solid #ffb342;
+  transition: .3s all linear;
+}
+
+.AboutCompanyLacation {
+  width: 100%;
+  display: flex;
+  padding: 2% 0;
+  position: relative;
+  flex-wrap: wrap;
+  gap: 2%;
+  justify-content: space-between;
+}
+
+.AboutCompanyLacation .AboutBoxLacation1 {
+  width: 49%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #8e9fac;
+  position: relative;
+}
+
+.AboutCompanyLacation .AboutBoxLacation1 img {
+  width: 100%;
+}
+
+.AboutCompanyLacation .AboutBoxLacation2 {
+  width: 49%;
+  border: 1px solid transparent;
+}
+
+.AboutBoxLacation3Right {
+  width: 27%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.AboutCompanyLacation .AboutBoxLacation3 {
+  width: 100%;
+  background-color: #8096ab;
+  margin-top: 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2%;
+  border: 1px solid transparent;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+}
+
+.AboutCompanyLacation .AboutBoxLacation3 .AboutBoxLacation3Left {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 3%;
+  width: 70%;
+  position: relative;
+  top: 15%;
+}
+
+.AboutCompanyLacation .AboutBoxLacation3 .AboutBoxLacation3Left .AboutBoxLacation3LeftBox {
+  width: 31%;
+  padding-bottom: 5%;
+}
+
+.AboutCompanyLacation .AboutBoxLacation3 .AboutBoxLacation3Left .AboutBoxLacation3LeftBox h3 {
+  font-family: "Verdana";
+  font-weight: 700;
+  font-size: 40px;
+  padding-bottom: 5%;
+}
+
+.AboutCompanyLacation .AboutBoxLacation3 .AboutBoxLacation3Left .AboutBoxLacation3LeftBox p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  padding-top: 2%;
+}
+
+.AboutBoxLacation3Right div h1 {
+  font-size: 200px;
+  line-height: 200px;
+  padding-bottom: 40px;
+  font-family: "Verdana";
+}
+
+.AboutBoxLacation3Right div h3 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46.96px;
+  font-family: "Raleway", sans-serif;
+}
+
+.AboutCompanyLacation .AboutBoxLacation3 {
+  overflow: hidden;
+}
+
+.videoWrapper img {
+  width: 100%;
+  height: 100%;
+}
+
+.AnimateFilals {
+  animation: fadeIn 0.7s ease-out;
+}
+
+.AnimateFilals2 {
+  animation: fadeIn2 0.7s ease-out;
+}
+
+.AboutPage {
+  position: relative;
+  padding-top: 75px;
+}
+
+#TitleAbout {
+  animation: animate 0.7s ease-out;
+}
+
+.AboutPage #TitleAbout::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 5px;
+  position: relative;
+  background-color: #faaa4d;
+  left: -10px;
+  top: -10px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn2 {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.LocationSubtitle {
+  position: absolute;
+  color: #fff;
+  display: flex;
+  bottom: 4%;
+  gap: 5vw;
+  font-family: "Raleway", sans-serif;
+}
+
+.LocationSubtitle #brancheslocation {
+  line-height: 39px;
+  font-size: 22px;
+  border-top: 1.5px solid #ffffff;
+}
+.LocationSubtitle.animate {
+  animation: branchesanimation 0.7s forwards;
+}
+
+@keyframes branchesanimation {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(-2px);
+  }
+}
+
+@media screen and (max-width: 1055px) {
+  .LocationSubtitle #brancheslocation {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .AboutPage h2 {
+    font-size: 37px;
+  }
+
+  .AboutPageLocationSubtitle h2 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width:800px) {
+  .LocationSubtitle #brancheslocation {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (max-width:700px) {
+  .LocationSubtitle #brancheslocation {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .AboutPage h2 {
+    font-size: 28px !important;
+  }
+
+  .AboutPageLocationSubtitle h2 {
+    font-size: 22px !important;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .LocationSubtitle #brancheslocation {
+    font-size: 8.5px;
+    line-height: 16px;
+  }
+}
+
+/* @media screen and (max-width:450px){
+  .LocationSubtitle #brancheslocation{
+    font-size: 20px;
+  }
+} */
+@media screen and (max-width:500px) {
+  .AboutCompanyLacation .AboutBoxLacation1 {
+    width: 98%;
+    margin-bottom: 2vw;
+  }
+
+  .LocationSubtitle #brancheslocation {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .AboutPage h2 {
+    font-size: 22px !important;
+  }
+
+  .AboutPage #TitleAbout::before {
+    width: 14px;
+    height: 3px;
+    left: -4px;
+    top: -6px;
+  }
+
+  .AboutPageLocationSubtitle {
+    margin-bottom: 10px;
+    gap: 20%;
+  }
+
+  .AboutPageLocationSubtitle h2 {
+    font-size: 18px !important;
+  }
+
+  .LocationSubtitle {
+    gap: 8vw;
+  }
+
+  .AboutCompanyLacation .AboutBoxLacation2 {
+    width: 98%;
+  }
+}
+
+@media screen and (max-width:400px) {
+  .LocationSubtitle #brancheslocation {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .AboutPage h2 {
+    font-size: 20px !important;
+  }
+}
+
+@media screen and (max-width:720px) {
+  .AboutCompanyLacation .AboutBoxLacation3 {
+    flex-wrap: wrap;
+  }
+
+  .AboutBoxLacation3Right {
+    width: 100%;
+  }
+
+  .AboutBoxLacation3Right div h1 {
+    line-height: 140px;
+    font-size: 90px !important;
+  }
+
+  .AboutCompanyLacation .AboutBoxLacation3 .AboutBoxLacation3Left {
+    top: -5%;
+    width: 100%;
+  }
+
+  .AboutCompanyLacation .AboutBoxLacation3 .AboutBoxLacation3Left .AboutBoxLacation3LeftBox h3 {
+    font-size: 40px;
+  }
+
+  .AboutCompanyLacation .AboutBoxLacation3 .AboutBoxLacation3Left .AboutBoxLacation3LeftBox p {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width:550px) {
+  .AboutCompanyLacation .AboutBoxLacation3 .AboutBoxLacation3Left .AboutBoxLacation3LeftBox h3 {
+    font-size: 20px;
+  }
+
+  .AboutCompanyLacation .AboutBoxLacation3 .AboutBoxLacation3Left .AboutBoxLacation3LeftBox p {
+    font-size: 14px !important;
+    line-height: 18px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .AboutCompanyLacation .AboutBoxLacation3 .AboutBoxLacation3Left {
+    top: -13%;
+    width: 100%;
+  }
+
+  .AboutText {
+    font-size: 16px !important;
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "naviagtion": {
+    "home": "Бош сахифа",
+    "aboutcompany": "Компания хакида",
+    "services": "Хизматлар",
+    "Ourprojects": "Лоихаларимиз",
+    "Ourachievement": "Ютугларимиз",
+    "events": "Янгиликлар",
+    "Contacts": "Контактлар",
+    "gallery": "Галерея"
+  },
+  "header": {
+    "headerbtn1": "Батафсил",
+    "headerbtn2": "Контактлар",
+    "headerbtn3": "Батафсил"
+  },
+  "mainadvantages": {
+    "text1": "Бизнинг",
+    "text2": "афзалликларимиз"
+  },
+  "maincommand": {
+    "title": "Компания бошкарувчилари"
+  },
+  "aboutpage": {
+    "abouttitle1": "Компания хакида",
+    "abouttitle2": "Бизнинг афзалликларимиз",
+    "partnerstitle1": "Бизнинг",
+    "partnerstitle2": "хамкорларимиз"
+  },
+  "servicespage": {
+    "serveicestitle": "Бизнинг хизматлар"
+  },
+  "ProjectPage": {
+    "projecttitle": "Бизнинг иштирокимиздаги лоихалар"
+  },
+  "achievementpage": {
+    "achievementitle": "Ютугларимиз бўлими:",
+    "achievementfoottext1": "Бизнинг YouTube канал"
+  },
+  "feedbackform": {
+    "titlefeedback": "Кайта алока",
+    "inputnamelabel": "Исм",
+    "inputnameplaceholder": "Исмингиз?",
+    "inputnameerror": "Исм бўш бўлиши мумкин эмас",
+    "inputemaillabel": "Почта",
+    "inputemailplaceholder": "Сизнинг электрон почта?",
+    "inputemailerror": "Пўчта бўш бўлиши мумкин эмас",
+    "inputnumberlabel": "Телефон ракам",
+    "inputnumbererror": "Телефон ракам бўш бўлиши мумкин эмас",
+    "inputmessagelabel": "Хабар",
+    "inputmessageplaceholder": "Сизнинг хабарингиз",
+    "inputmessageerror": "Хабар бўш бўлиши мумкин эмас",
+    "sumbitbtnform": "Юбориш",
+    "successformsubit": {
+      "successtitle": "Сизнинг малумотларингиз муваффакиятли юборилди. Тез орада сиз билан богланамиз",
+      "successbtnclose": "Йопиш"
+    },
+    "errorformsubit": {
+      "errortitle": "Хатолик. Илтимос бироздан кейин уриниб коринг",
+      "errorbtnclose": "Йопиш"
+    }
+  },
+  "footer": {
+    "text1": "Бизга хат жонатиш",
+    "text2": "Биз билан богланиш",
+    "text3": "Жойлашув"
+  }
+}

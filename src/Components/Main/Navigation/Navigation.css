@@ -1,0 +1,290 @@
+.Navigation {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: Tahoma, Geneva, sans-serif !important;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.Navigation1 {
+  width: 100%;
+  position: fixed;
+  z-index: 1000;
+}
+
+.Logo {
+  border: none !important;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Logo2 {
+  width: 90px !important;
+  height: 65px;
+}
+
+.Logo img {
+  width: 100%;
+  z-index: 100 !important;
+}
+
+.Logo .Logo1 {
+  width: 130%;
+  max-height: 80px;
+  position: relative;
+  right: 27%;
+}
+
+.NavRigth {
+  width: 10%;
+  height: 100%;
+  background-color: #d7d7d7;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding-left: 2%;
+  position: relative;
+}
+
+.NavLinks {
+  width: 100%;
+  position: relative;
+  left: 2%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.NavLinks li a {
+  font-family: "Montserrat";
+  font-size: 19px;
+  width: calc(95% / 8);
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.NavLinks li a.active {
+  color: #ffb342;
+}
+
+.NavLinks li a:hover {
+  color: #ffb342;
+  transition: 0.3s all linear;
+}
+
+.NavLeft {
+  width: 93%;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5vw;
+  padding-left: 5%;
+  background-color: #1c2752;
+  height: 100%;
+}
+
+.NavLeft::before {
+  content: "";
+  width: 4%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: -1px;
+  border: 0px solid;
+  z-index: 2;
+  background-color: #d7d7d7;
+  clip-path: polygon(100% 50%, 0 0, 0 100%);
+}
+
+.LanguageBtn {
+  position: relative;
+  width: 10%;
+  right: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+  color: #ffffff;
+}
+
+.LanguageBtn p {
+  user-select: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.LanguageBtn p:hover {
+  color: #ffb342;
+  transition: 0.1s all linear;
+}
+
+.BurgerMenu {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background-color: #ffff;
+  z-index: 3000;
+}
+
+.BurgerActive {
+  display: block;
+  animation: fadeInFromTop 0.5s ease forwards;
+}
+
+@keyframes fadeInFromTop {
+  from {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInFromBottom {
+  from {
+    opacity: 0;
+    transform: translateY(0%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(-200%);
+  }
+}
+
+.BurgerNotActive {
+  animation: fadeInFromBottom 0.5s ease forwards;
+}
+
+.BurgerIcon {
+  cursor: pointer;
+}
+
+.BurgerMenu ul {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  width: 100%;
+}
+
+.BurgerMenu ul a {
+  font-size: 22px;
+  font-family: "Inter", sans-serif;
+  color: #000;
+  line-height: 40px;
+}
+
+.BurgerMenu ul a:hover {
+  color: #1c2752;
+  font-weight: 500;
+  transition: 0.2s all linear;
+}
+
+.BurgerMenu .ExitIcon {
+  position: absolute;
+  right: 7%;
+  top: 4%;
+  font-size: 55px;
+  user-select: none;
+  cursor: pointer;
+}
+
+.BurgerMenu .BoxLanguage {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 4vw;
+  position: absolute;
+  bottom: 7%;
+}
+
+.BurgerMenu .BoxLanguage div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  user-select: none;
+  cursor: pointer;
+}
+
+.BurgerMenuNotActive {
+  position: fixed;
+  z-index: 2000;
+  width: 100%;
+  backdrop-filter: blur(10px);
+  gap: 80%;
+}
+
+.BurgerMenuNo {
+  display: none;
+}
+
+.BurgerMenuNotActive div {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 5%;
+}
+
+@media screen and (max-width: 1531px) {
+  .NavLinks li a {
+    font-size: 16px;
+  }
+
+  .LanguageBtn p {
+    font-size: 13px;
+  }
+
+  .Logo .Logo1 {
+    width: 110%;
+    right: 20%;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .NavLinks li a {
+    font-size: 8px;
+  }
+
+  .LanguageBtn p {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 1360px) {
+  .NavLinks li a {
+    font-size: 14px;
+  }
+
+  .Logo .Logo1 {
+    width: 100%;
+    right: 16%;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .NavLinks {
+    width: 100%;
+  }
+
+  .NavLinks li a {
+    font-size: 10px !important;
+  }
+
+  .LanguageBtn p {
+    font-size: 9px;
+  }
+}

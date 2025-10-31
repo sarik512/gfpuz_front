@@ -1,0 +1,68 @@
+{
+  "naviagtion": {
+    "home": "Главная",
+    "aboutcompany": "О компании",
+    "services": "Услуги",
+    "Ourprojects": "Наши проекты",
+    "Ourachievement": "Наши достижения",
+    "events": "События",
+    "Contacts": "Контакты",
+    "gallery": "Галерея"
+  },
+  "header": {
+    "headerbtn1": "Подробнее",
+    "headerbtn2": "Контакты",
+    "headerbtn3": "Узнать больше"
+  },
+  "mainadvantages": {
+    "text1": "Наши",
+    "text2": "преимущества"
+  },
+  "maincommand": {
+    "title": "Руководвство компании"
+  },
+  "aboutpage": {
+    "abouttitle1": "О компании",
+    "abouttitle2": "Наши филиалы",
+    "partnerstitle1": "Наши",
+    "partnerstitle2": "партнёры"
+  },
+  "servicespage": {
+    "serveicestitle": "Наши услуги"
+  },
+  "ProjectPage": {
+    "projecttitle": "Проекты с нашим участием"
+  },
+  "achievementpage": {
+    "achievementitle": "Разделы наших достижений:",
+    "achievementfoottext1": "Наш YouTube канал"
+  },
+  "feedbackform": {
+    "titlefeedback": "Обратная связь",
+    "inputnamelabel": "Имя",
+    "inputnameplaceholder": "Как вас зовут?",
+    "inputnameerror": "Имя не может быть пустым",
+    "inputemaillabel": "Почта",
+    "inputemailplaceholder": "Ваша электронная почта?",
+    "inputemailerror": "Почта не может быть пустым",
+    "inputnumberlabel": "Номер телефона",
+    "inputnumbererror": "Номер телефона не может быть пустым",
+    "inputmessagelabel": "Сообщение",
+    "inputmessageplaceholder": "Ваше сообщение",
+    "inputmessageerror": "Сообщение не может быть пустым",
+    "sumbitbtnform": "Отправить",
+    "successformsubit": {
+      "successtitle": "Ваши данные успешно отправленна. Мы свяжемся с вами в ближайшее время.",
+      "successbtnclose": "Закрыть"
+    },
+    "errorformsubit": {
+      "errortitle": "Что-то пошло не так. Пожалуйста, попробуйте позже.",
+      "errorbtnclose": "Закрыть"
+    }
+  },
+  "footer": {
+    "text1": "Напишите нам",
+    "text2": "Позвоните нам",
+    "text3": "Расположение"
+  }
+}
